@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: ;
 }
 
 main {
@@ -22,6 +22,12 @@ footer {
 .bgi-1 {
     background-image: url(https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgi-2 {
+    background-image: url(https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvb2xzfGVufDB8MXwwfHx8MA%3D%3D);
+    background-size: contain;
     background-attachment: fixed;
 }
 
