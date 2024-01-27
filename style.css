@@ -24,3 +24,7 @@ footer {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.txt-style-shadow {
+    text-shadow: black;
+}
