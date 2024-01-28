@@ -1,5 +1,4 @@
 body {
-    background-color: grey;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -10,7 +9,7 @@ header {
 }
 
 main {
-    background-color: white;
+    background-color: ;
     flex-grow: 1;
 }
 
@@ -26,17 +25,56 @@ footer {
 }
 
 .bgi-2 {
-    background-image: url(https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvb2xzfGVufDB8MXwwfHx8MA%3D%3D);
+    image-rendering: url(https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRvb2xzfGVufDB8MXwwfHx8MA%3D%3D);
     background-size: contain;
     background-attachment: fixed;
 }
 
-.bgi- {
+.bgi-3 {
     background-image: url(https://images.unsplash.com/photo-1422246654994-34520d5a0340?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bHVtYmVyfGVufDB8MHwwfHx8MA%3D%3D);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 
 .txt-style-shadow {
-    text-shadow: black;
+    text-shadow: 1px 1px 0 black;
+}
+
+.pad-5 {
+    padding-left: 5;
+    padding-top: 5;
+    padding-right: 5;
+    padding-bottom: 5;
+}
+
+.pad-2 {
+    padding-left: 2;
+    padding-top: 2;
+    padding-right: 2;
+    padding-bottom: 2;
+}
+
+@media screen AND (max-width:768px) {
+
+    .column-style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .pady-5 {
+        padding-top: 5em;
+        padding-bottom: 5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    pady-2 {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
