@@ -31,6 +31,12 @@ footer {
     background-attachment: fixed;
 }
 
+.bgi- {
+    background-image: url(https://images.unsplash.com/photo-1422246654994-34520d5a0340?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bHVtYmVyfGVufDB8MHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .txt-style-shadow {
     text-shadow: black;
 }
