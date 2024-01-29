@@ -40,6 +40,13 @@ footer {
     text-shadow: 1px 1px 0 black;
 }
 
+.poor-story-font {
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 .pad-5 {
     padding-left: 5;
     padding-top: 5;
