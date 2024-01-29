@@ -89,4 +89,14 @@ footer {
     #box-3 {
         order: 3;
     }
+
+    .dis-txt {
+        opacity: 0;
+    }
+
+    .box-shift {
+        position: absolute;
+        object-position: center bottom;
+    }
+
 }
